@@ -4,3 +4,7 @@
 *目前有比例尺小於2km時台灣地圖不顯示的問題,很可能是私用地圖隱私問題,恐怕很難改善
 
 *ui待改進
+
+*apk位於 app/build/outputs/apk/debug/app-debug.apk
+
+*百度地圖 api https://lbsyun.baidu.com/index.php?title=androidsdk
