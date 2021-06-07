@@ -73,7 +73,7 @@ public class TabFragmentStep extends Fragment implements OnClickListener,
 	private RadioButton rbStepPocket;
 	public static TextView tvLight;
 
-	public static ChartView cvLight;
+	//public static ChartView cvLight;
 
 	//选择菜单
 	private AlertDialog.Builder dialog;
@@ -89,8 +89,8 @@ public class TabFragmentStep extends Fragment implements OnClickListener,
 	private float weight;//体重
 	private float steplen;//步长
 	private int age;//年龄
-	private float sensitive;//灵敏度
-	private float lightive;//感光度
+	final private  float sensitive=8;//灵敏度
+
 
 	private int steps;//步数
 	private int seconds;//秒数
@@ -113,7 +113,10 @@ public class TabFragmentStep extends Fragment implements OnClickListener,
 		};
 	};
 
-	
+	public TabFragmentStep() {
+	}
+
+
 	/**
 	 * 计算卡路里，路程，均速等
 	 */
@@ -176,10 +179,10 @@ public class TabFragmentStep extends Fragment implements OnClickListener,
 		height = mySharedPreferences.getFloat("height", 175);
 		weight = mySharedPreferences.getFloat("weight", 65);
 		steplen = mySharedPreferences.getFloat("steplen", 80);
-		age = mySharedPreferences.getInt("age", 24);
-		sensitive = mySharedPreferences.getFloat("sensitive", 8);
-		lightive = mySharedPreferences.getFloat("lightive", 10);
-//		LIGHT_BORDER = lightive;
+		age = mySharedPreferences.getInt("age", 20);
+
+
+
 
 	}
 
@@ -288,7 +291,7 @@ public class TabFragmentStep extends Fragment implements OnClickListener,
 		tvWeight.setOnClickListener(this);
 		tvAge = (TextView) view.findViewById(R.id.tv_age);
 		tvAge.setOnClickListener(this);
-		tvSensitive = (TextView) view.findViewById(R.id.tv_sensitive);
+		//tvSensitive = (TextView) view.findViewById(R.id.tv_sensitive);
 
 
 		//tvLightive.setOnClickListener(this);
@@ -297,7 +300,7 @@ public class TabFragmentStep extends Fragment implements OnClickListener,
 
 		rgMode = (RadioGroup) view.findViewById(R.id.step_mode);
 
-		rbStepNormal = (RadioButton) view.findViewById(R.id.step_normal);
+		//rbStepNormal = (RadioButton) view.findViewById(R.id.step_normal);
 
 //		tvLight = (TextView) view.findViewById(R.id.tv_light);
 
@@ -370,7 +373,7 @@ public class TabFragmentStep extends Fragment implements OnClickListener,
 			if (btControl.getText().equals("开始")) {
 				Toast.makeText(getActivity(), "已同时开启轨迹记录，若不需要可右滑点击停止",
 						Toast.LENGTH_SHORT).show();
-				Toast.makeText(getActivity(), "为获得更好的效果，请确认你的体重，步长等信息是正确的...", Toast.LENGTH_SHORT).show();
+				Toast.makeText(getActivity(), "请确认你的体重，步长等信息是正确的...", Toast.LENGTH_SHORT).show();
 				if (!TabFragmentMap.isRecording) {
 					TabFragmentMap.showflag = false;
 					TabFragmentMap.bt_ctrlTrack.performClick();// 模拟点击
@@ -497,30 +500,30 @@ public class TabFragmentStep extends Fragment implements OnClickListener,
 					});
 			dialog.show();
 			break;
-		case R.id.tv_sensitive:
-			// 设置灵敏度
-			dialog = new AlertDialog.Builder(getActivity());
-			numberPicker = new NumberPicker(getActivity());
-			numberPicker.setFocusable(true);
-			numberPicker.setFocusableInTouchMode(true);
-			numberPicker.setMaxValue(10);
-			numberPicker.setMinValue(1);
-			numberPicker.setValue((int) Float.parseFloat(tvSensitive.getText()
-					.toString().trim()));
-			dialog.setView(numberPicker);
-			dialog.setPositiveButton("确定",
-					new DialogInterface.OnClickListener() {
-
-						@Override
-						public void onClick(DialogInterface arg0, int arg1) {
-							tvSensitive.setText(numberPicker.getValue() + "");
-							sensitive = numberPicker.getValue();
-							AccelerometerSensorListener.SENSITIVITY = sensitive;
-							savePersonalData();
-						}
-					});
-			dialog.show();
-			break;
+//		case R.id.tv_sensitive:
+//			// 设置灵敏度
+//			dialog = new AlertDialog.Builder(getActivity());
+//			numberPicker = new NumberPicker(getActivity());
+//			numberPicker.setFocusable(true);
+//			numberPicker.setFocusableInTouchMode(true);
+//			numberPicker.setMaxValue(10);
+//			numberPicker.setMinValue(1);
+//			numberPicker.setValue((int) Float.parseFloat(tvSensitive.getText()
+//					.toString().trim()));
+//			dialog.setView(numberPicker);
+//			dialog.setPositiveButton("确定",
+//					new DialogInterface.OnClickListener() {
+//
+//						@Override
+//						public void onClick(DialogInterface arg0, int arg1) {
+//							tvSensitive.setText(numberPicker.getValue() + "");
+//
+//							AccelerometerSensorListener.SENSITIVITY = sensitive;
+//							savePersonalData();
+//						}
+//					});
+//			dialog.show();
+//			break;
 
 		}
 
