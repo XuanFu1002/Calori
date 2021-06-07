@@ -825,7 +825,7 @@ public class TabFragmentMap extends Fragment implements OnClickListener,
 
 			} else {
 				bt_ctrlTrack.setBackgroundResource(R.drawable.start);
-				Toast.makeText(getActivity(), "轨迹记录已停止.", Toast.LENGTH_SHORT)
+				Toast.makeText(getActivity(), "軌跡記錄已停止.", Toast.LENGTH_SHORT)
 						.show();
 				isRecording = false;
 				isRecordEnd = true;
@@ -859,26 +859,26 @@ public class TabFragmentMap extends Fragment implements OnClickListener,
 			if (firstVis) {
 				firstVis = false;
 				if (network) {
-					Toast.makeText(getActivity(), "当前网络可用", Toast.LENGTH_SHORT).show();
+					Toast.makeText(getActivity(), "網路可用", Toast.LENGTH_SHORT).show();
 				} else {
-					Toast.makeText(getActivity(), "当前网络不可用，请检查网络状态",
+					Toast.makeText(getActivity(), "請檢查網路狀態",
 							Toast.LENGTH_SHORT).show();
 				}
 				if (gps) {
-					Toast.makeText(getActivity(), "GPS已打开", Toast.LENGTH_SHORT).show();
+					Toast.makeText(getActivity(), "GPS已經開啟", Toast.LENGTH_SHORT).show();
 				} else {
-					Toast.makeText(getActivity(), "GPS已关闭，请开启GPS",
+					Toast.makeText(getActivity(), "請開啟GPS",
 							Toast.LENGTH_SHORT).show();
 				}
 
 			} else {
 				if (!network) {
-					Toast.makeText(getActivity(), "当前网络不可用，请检查网络状态",
+					Toast.makeText(getActivity(), "請檢查網路狀態",
 							Toast.LENGTH_SHORT).show();
 				}
 
 				if (!gps) {
-					Toast.makeText(getActivity(), "GPS is NOT open",
+					Toast.makeText(getActivity(), "請開啟GPS",
 							Toast.LENGTH_SHORT).show();
 				}
 			}
@@ -967,7 +967,7 @@ public class TabFragmentMap extends Fragment implements OnClickListener,
 	@Override
 	public void onGetReverseGeoCodeResult(ReverseGeoCodeResult result) {
 		if (result == null || result.error != SearchResult.ERRORNO.NO_ERROR) {
-			Toast.makeText(getActivity(), "抱歉，当前地理位置无法识别", Toast.LENGTH_SHORT)
+			Toast.makeText(getActivity(), "無法識別當前位置", Toast.LENGTH_SHORT)
 					.show();
 			return;
 		}

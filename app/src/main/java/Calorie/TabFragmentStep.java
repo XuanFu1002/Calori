@@ -370,10 +370,10 @@ public class TabFragmentStep extends Fragment implements OnClickListener,
 			break;
 		case R.id.bt_control:
 			// 控制按钮，开始，暂停，继续
-			if (btControl.getText().equals("开始")) {
-				Toast.makeText(getActivity(), "已同时开启轨迹记录，若不需要可右滑点击停止",
+			if (btControl.getText().equals("開始")) {
+				Toast.makeText(getActivity(), "開始軌跡記錄",
 						Toast.LENGTH_SHORT).show();
-				Toast.makeText(getActivity(), "请确认你的体重，步长等信息是正确的...", Toast.LENGTH_SHORT).show();
+
 				if (!TabFragmentMap.isRecording) {
 					TabFragmentMap.showflag = false;
 					TabFragmentMap.bt_ctrlTrack.performClick();// 模拟点击
@@ -383,15 +383,15 @@ public class TabFragmentStep extends Fragment implements OnClickListener,
 				getActivity().startService(intent);
 				cmPasstime.setBase(SystemClock.elapsedRealtime());
 				cmPasstime.start();
-				btControl.setText("暂停");
-			} else if (btControl.getText().equals("暂停")) {
+				btControl.setText("暫停");
+			} else if (btControl.getText().equals("暫停")) {
 				getActivity().stopService(intent);
 				cmPasstime.stop();
-				btControl.setText("继续");
-			} else if (btControl.getText().equals("继续")) {
+				btControl.setText("繼續");
+			} else if (btControl.getText().equals("繼續")) {
 				getActivity().startService(intent);
 				cmPasstime.start();
-				btControl.setText("暂停");
+				btControl.setText("暫停");
 			}
 
 			break;
@@ -421,7 +421,7 @@ public class TabFragmentStep extends Fragment implements OnClickListener,
 					.trim()));
 			numberPicker.setMinValue(1);
 			dialog.setView(numberPicker);
-			dialog.setPositiveButton("确定",
+			dialog.setPositiveButton("確定",
 					new DialogInterface.OnClickListener() {
 						@Override
 						public void onClick(DialogInterface arg0, int arg1) {
@@ -443,7 +443,7 @@ public class TabFragmentStep extends Fragment implements OnClickListener,
 					.toString().trim()));
 			numberPicker.setMinValue(20);
 			dialog.setView(numberPicker);
-			dialog.setPositiveButton("确定",
+			dialog.setPositiveButton("確定",
 					new DialogInterface.OnClickListener() {
 						@Override
 						public void onClick(DialogInterface arg0, int arg1) {
@@ -465,7 +465,7 @@ public class TabFragmentStep extends Fragment implements OnClickListener,
 					.toString().trim()));
 			numberPicker.setMinValue(20);
 			dialog.setView(numberPicker);
-			dialog.setPositiveButton("确定",
+			dialog.setPositiveButton("確定",
 					new DialogInterface.OnClickListener() {
 						@Override
 						public void onClick(DialogInterface arg0, int arg1) {
@@ -487,7 +487,7 @@ public class TabFragmentStep extends Fragment implements OnClickListener,
 					.toString().trim()));
 			numberPicker.setMinValue(15);
 			dialog.setView(numberPicker);
-			dialog.setPositiveButton("确定",
+			dialog.setPositiveButton("確定",
 					new DialogInterface.OnClickListener() {
 
 						@Override
@@ -500,30 +500,6 @@ public class TabFragmentStep extends Fragment implements OnClickListener,
 					});
 			dialog.show();
 			break;
-//		case R.id.tv_sensitive:
-//			// 设置灵敏度
-//			dialog = new AlertDialog.Builder(getActivity());
-//			numberPicker = new NumberPicker(getActivity());
-//			numberPicker.setFocusable(true);
-//			numberPicker.setFocusableInTouchMode(true);
-//			numberPicker.setMaxValue(10);
-//			numberPicker.setMinValue(1);
-//			numberPicker.setValue((int) Float.parseFloat(tvSensitive.getText()
-//					.toString().trim()));
-//			dialog.setView(numberPicker);
-//			dialog.setPositiveButton("确定",
-//					new DialogInterface.OnClickListener() {
-//
-//						@Override
-//						public void onClick(DialogInterface arg0, int arg1) {
-//							tvSensitive.setText(numberPicker.getValue() + "");
-//
-//							AccelerometerSensorListener.SENSITIVITY = sensitive;
-//							savePersonalData();
-//						}
-//					});
-//			dialog.show();
-//			break;
 
 		}
 
@@ -547,7 +523,7 @@ public class TabFragmentStep extends Fragment implements OnClickListener,
 		// tvPasstime.setText("00:00:00");
 		cmPasstime.setBase(SystemClock.elapsedRealtime());
 		cmPasstime.stop();
-		btControl.setText("开始");
+		btControl.setText("開始");
 		tvCalorie.setText("0.0");
 		tvDistance.setText("0.0");
 		tvSpeed.setText("0.0");
