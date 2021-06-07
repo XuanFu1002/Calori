@@ -1,0 +1,122 @@
+[
+    {
+        "merged": "D:\\ASP\\Calori\\app\\build\\intermediates\\res\\merged\\debug\\drawable_follow.png.flat",
+        "source": "D:\\ASP\\Calori\\app\\src\\main\\res\\drawable\\follow.png"
+    },
+    {
+        "merged": "D:\\ASP\\Calori\\app\\build\\intermediates\\res\\merged\\debug\\layout_step_mode.xml.flat",
+        "source": "D:\\ASP\\Calori\\app\\src\\main\\res\\layout\\step_mode.xml"
+    },
+    {
+        "merged": "D:\\ASP\\Calori\\app\\build\\intermediates\\res\\merged\\debug\\layout_view_button.xml.flat",
+        "source": "D:\\ASP\\Calori\\app\\src\\main\\res\\layout\\view_button.xml"
+    },
+    {
+        "merged": "D:\\ASP\\Calori\\app\\build\\intermediates\\res\\merged\\debug\\drawable_normal.png.flat",
+        "source": "D:\\ASP\\Calori\\app\\src\\main\\res\\drawable\\normal.png"
+    },
+    {
+        "merged": "D:\\ASP\\Calori\\app\\build\\intermediates\\res\\merged\\debug\\layout_step_msg.xml.flat",
+        "source": "D:\\ASP\\Calori\\app\\src\\main\\res\\layout\\step_msg.xml"
+    },
+    {
+        "merged": "D:\\ASP\\Calori\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher.png.flat",
+        "source": "D:\\ASP\\Calori\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\ASP\\Calori\\app\\build\\intermediates\\res\\merged\\debug\\anim_out_righttoleft.xml.flat",
+        "source": "D:\\ASP\\Calori\\app\\src\\main\\res\\anim\\out_righttoleft.xml"
+    },
+    {
+        "merged": "D:\\ASP\\Calori\\app\\build\\intermediates\\res\\merged\\debug\\drawable_step_mode_btn.xml.flat",
+        "source": "D:\\ASP\\Calori\\app\\src\\main\\res\\drawable\\step_mode_btn.xml"
+    },
+    {
+        "merged": "D:\\ASP\\Calori\\app\\build\\intermediates\\res\\merged\\debug\\menu_main.xml.flat",
+        "source": "D:\\ASP\\Calori\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "D:\\ASP\\Calori\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "D:\\ASP\\Calori\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\ASP\\Calori\\app\\build\\intermediates\\res\\merged\\debug\\layout_step_settting.xml.flat",
+        "source": "D:\\ASP\\Calori\\app\\src\\main\\res\\layout\\step_settting.xml"
+    },
+    {
+        "merged": "D:\\ASP\\Calori\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher.png.flat",
+        "source": "D:\\ASP\\Calori\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\ASP\\Calori\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "D:\\ASP\\Calori\\app\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\ASP\\Calori\\app\\build\\intermediates\\res\\merged\\debug\\drawable_startpoint.png.flat",
+        "source": "D:\\ASP\\Calori\\app\\src\\main\\res\\drawable\\startpoint.png"
+    },
+    {
+        "merged": "D:\\ASP\\Calori\\app\\build\\intermediates\\res\\merged\\debug\\menu_submenu_map_setting.xml.flat",
+        "source": "D:\\ASP\\Calori\\app\\src\\main\\res\\menu\\submenu_map_setting.xml"
+    },
+    {
+        "merged": "D:\\ASP\\Calori\\app\\build\\intermediates\\res\\merged\\debug\\drawable_endpoint.png.flat",
+        "source": "D:\\ASP\\Calori\\app\\src\\main\\res\\drawable\\endpoint.png"
+    },
+    {
+        "merged": "D:\\ASP\\Calori\\app\\build\\intermediates\\res\\merged\\debug\\drawable_start.png.flat",
+        "source": "D:\\ASP\\Calori\\app\\src\\main\\res\\drawable\\start.png"
+    },
+    {
+        "merged": "D:\\ASP\\Calori\\app\\build\\intermediates\\res\\merged\\debug\\layout_tab_fragment_map.xml.flat",
+        "source": "D:\\ASP\\Calori\\app\\src\\main\\res\\layout\\tab_fragment_map.xml"
+    },
+    {
+        "merged": "D:\\ASP\\Calori\\app\\build\\intermediates\\res\\merged\\debug\\drawable_stop.png.flat",
+        "source": "D:\\ASP\\Calori\\app\\src\\main\\res\\drawable\\stop.png"
+    },
+    {
+        "merged": "D:\\ASP\\Calori\\app\\build\\intermediates\\res\\merged\\debug\\drawable_compass.png.flat",
+        "source": "D:\\ASP\\Calori\\app\\src\\main\\res\\drawable\\compass.png"
+    },
+    {
+        "merged": "D:\\ASP\\Calori\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher.png.flat",
+        "source": "D:\\ASP\\Calori\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\ASP\\Calori\\app\\build\\intermediates\\res\\merged\\debug\\layout_main_bottom.xml.flat",
+        "source": "D:\\ASP\\Calori\\app\\src\\main\\res\\layout\\main_bottom.xml"
+    },
+    {
+        "merged": "D:\\ASP\\Calori\\app\\build\\intermediates\\res\\merged\\debug\\layout_tab_fragment_step.xml.flat",
+        "source": "D:\\ASP\\Calori\\app\\src\\main\\res\\layout\\tab_fragment_step.xml"
+    },
+    {
+        "merged": "D:\\ASP\\Calori\\app\\build\\intermediates\\res\\merged\\debug\\drawable_submenu.png.flat",
+        "source": "D:\\ASP\\Calori\\app\\src\\main\\res\\drawable\\submenu.png"
+    },
+    {
+        "merged": "D:\\ASP\\Calori\\app\\build\\intermediates\\res\\merged\\debug\\drawable_step_btn_background.xml.flat",
+        "source": "D:\\ASP\\Calori\\app\\src\\main\\res\\drawable\\step_btn_background.xml"
+    },
+    {
+        "merged": "D:\\ASP\\Calori\\app\\build\\intermediates\\res\\merged\\debug\\anim_in_lefttoright.xml.flat",
+        "source": "D:\\ASP\\Calori\\app\\src\\main\\res\\anim\\in_lefttoright.xml"
+    },
+    {
+        "merged": "D:\\ASP\\Calori\\app\\build\\intermediates\\res\\merged\\debug\\drawable_step_btn_color.xml.flat",
+        "source": "D:\\ASP\\Calori\\app\\src\\main\\res\\drawable\\step_btn_color.xml"
+    },
+    {
+        "merged": "D:\\ASP\\Calori\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mylocation.png.flat",
+        "source": "D:\\ASP\\Calori\\app\\src\\main\\res\\drawable\\mylocation.png"
+    },
+    {
+        "merged": "D:\\ASP\\Calori\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon.png.flat",
+        "source": "D:\\ASP\\Calori\\app\\src\\main\\res\\drawable\\icon.png"
+    },
+    {
+        "merged": "D:\\ASP\\Calori\\app\\build\\intermediates\\res\\merged\\debug\\layout_mobile_msg.xml.flat",
+        "source": "D:\\ASP\\Calori\\app\\src\\main\\res\\layout\\mobile_msg.xml"
+    }
+]
