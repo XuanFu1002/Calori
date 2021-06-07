@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CalorieMeasure-master.iml" filepath="$PROJECT_DIR$/.idea/modules/CalorieMeasure-master.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/CalorieMeasure-master.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/CalorieMeasure-master.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Calori.iml" filepath="$PROJECT_DIR$/.idea/modules/Calori.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Calori.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Calori.app.iml" />
     </modules>
   </component>
 </project>
