@@ -1,7 +1,7 @@
 package Calorie;
 
 import java.io.File;
-import com.cmm.R;
+import com.calorie.R;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;

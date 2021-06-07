@@ -73,7 +73,7 @@ import com.baidu.mapapi.search.geocode.ReverseGeoCodeResult;
 import com.baidu.mapapi.utils.CoordinateConverter;
 import com.baidu.mapapi.utils.CoordinateConverter.CoordType;
 import com.baidu.mapapi.utils.DistanceUtil;
-import com.cmm.R;
+import com.calorie.R;
 
 import Calorie.MyOrientationListener.OnOrientationListener;
 

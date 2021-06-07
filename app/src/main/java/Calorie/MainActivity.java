@@ -19,7 +19,7 @@ import android.view.View.OnClickListener;
 import android.view.Window;
 import android.widget.TextView;
 
-import com.cmm.R;
+import com.calorie.R;
 
 /**
  * 主Activity，统领Fragment和menu子菜单
