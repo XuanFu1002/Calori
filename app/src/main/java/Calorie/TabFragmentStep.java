@@ -106,7 +106,7 @@ public class TabFragmentStep extends Fragment implements OnClickListener,
 			steps = AccelerometerSensorListener.CURRENT_SETP;
 			float percent = steps * 100 / pbPercent.getMax();
 			tvPercent.setText(String.valueOf(percent) + "%");
-			pbPercent.setProgress(steps);// 爆表？
+			pbPercent.setProgress(steps);
 			tvSteps.setText("" + steps);
 
 			calAddData();
@@ -192,7 +192,7 @@ public class TabFragmentStep extends Fragment implements OnClickListener,
 		tvAge.setText(age + "");
 		tvSensitive.setText(sensitive + "");
 		AccelerometerSensorListener.SENSITIVITY = sensitive;
-		tvLightive.setText(lightive + "");
+		//tvLightive.setText(lightive + "");
 //		LIGHT_BORDER = lightive;
 	}
 
@@ -290,15 +290,15 @@ public class TabFragmentStep extends Fragment implements OnClickListener,
 		tvAge.setOnClickListener(this);
 		tvSensitive = (TextView) view.findViewById(R.id.tv_sensitive);
 		tvSensitive.setOnClickListener(this);
-		tvLightive = (TextView) view.findViewById(R.id.tv_lightive);
-		tvLightive.setOnClickListener(this);
+
+		//tvLightive.setOnClickListener(this);
 		tvSteplen = (TextView) view.findViewById(R.id.tv_steplen);
 		tvSteplen.setOnClickListener(this);
 
 		rgMode = (RadioGroup) view.findViewById(R.id.step_mode);
 		rgMode.setOnCheckedChangeListener(this);
 		rbStepNormal = (RadioButton) view.findViewById(R.id.step_normal);
-		rbStepPocket = (RadioButton) view.findViewById(R.id.step_pocket);
+
 //		tvLight = (TextView) view.findViewById(R.id.tv_light);
 
 //		cvLight = (ChartView) view.findViewById(R.id.cv_light);

@@ -238,7 +238,7 @@ public class TabFragmentMap extends Fragment implements OnClickListener,
 					modifyLocMarker(LocationMode.FOLLOWING);
 					setLocationData(mBDLocation);
 				} else {
-					// 过滤不合理坐标!!!!!!!!!!!，同时采取权重公式来补偿早期的定位误差。
+					// 过滤不合理坐标 同时采取权重公式来补偿早期的定位误差。
 					if (filter()) {
 						lastLatLng = nowLatLng;
 						nowLatLng = latlng;
@@ -254,7 +254,7 @@ public class TabFragmentMap extends Fragment implements OnClickListener,
 
 	
 	/**
-	 * 过滤不合理坐标!!!!!!!!!!!，同时采取权重公式来补偿早期的定位误差。
+	 * 过滤不合理坐标，同时采取权重公式来补偿早期的定位误差。
 	 */
 	protected boolean filter() {
 		double dis = getDistance(lastLatLng, nowLatLng);
@@ -525,7 +525,7 @@ public class TabFragmentMap extends Fragment implements OnClickListener,
 
 	}
 
-	// 看着玩的
+
 	protected void updateMapFromGPS(Location location) {
 		if (location != null) {
 			// 纬度
