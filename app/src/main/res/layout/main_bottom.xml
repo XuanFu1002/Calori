@@ -33,10 +33,10 @@
             android:id="@+id/id_tv_step"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:clickable="true"
             android:text="@string/main_step"
-            android:textSize="20sp"
-            android:textColor="#008000"  
-            android:clickable="true"/>
+            android:textColor="#008000"
+            android:textSize="20sp" />
     </LinearLayout>
 
 </LinearLayout>
