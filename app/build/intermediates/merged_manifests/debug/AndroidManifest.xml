@@ -56,10 +56,12 @@
         android:name="Calorie.GlobalApplication"
         android:allowBackup="true"
         android:debuggable="true"
-        android:icon="@drawable/stop"
-        android:label="fu"
+        android:icon="@drawable/icon"
+        android:label="calorie"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+
+        <!-- 申请key -->
         <meta-data
             android:name="com.baidu.lbsapi.API_KEY"
             android:value="KyGLNzeT1HZTA7FNojDqZ8jVWLu4Qkgb" />

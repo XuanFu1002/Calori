@@ -1,4 +1,4 @@
-#Mon Jun 07 21:07:26 CST 2021
+#Mon Jun 07 22:56:07 CST 2021
 base.0=D\:\\ASP\\Calori\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

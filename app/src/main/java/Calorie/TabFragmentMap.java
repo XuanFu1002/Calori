@@ -601,21 +601,10 @@ public class TabFragmentMap extends Fragment implements OnClickListener,
 				// TODO Auto-generated method stub
 				switch (item.getItemId()) {
 
-				case R.id.it_clearMaket:
-					mBaiduMap.clear();
-					break;
 				case R.id.it_normal:
 					modifyLocMarker(LocationMode.NORMAL);
 					break;
-				case R.id.it_follow:
-					modifyLocMarker(LocationMode.FOLLOWING);
-					break;
-				case R.id.it_compass:
-					modifyLocMarker(LocationMode.COMPASS);
-					break;
-				case R.id.it_normalmap:
-					mBaiduMap.setMapType(BaiduMap.MAP_TYPE_NORMAL);
-					break;
+
 				case R.id.it_satellitemap:
 					mBaiduMap.setMapType(BaiduMap.MAP_TYPE_SATELLITE);
 					break;
@@ -625,13 +614,7 @@ public class TabFragmentMap extends Fragment implements OnClickListener,
 							Settings.ACTION_LOCATION_SOURCE_SETTINGS);
 					startActivityForResult(intent, 0); // 设置完成后返回到原来的界面
 					break;
-				case R.id.it_back:
-					getActivity().moveTaskToBack(false);
-					break;
-				case R.id.it_exit:
-					android.os.Process.killProcess(android.os.Process.myPid()); // 获取PID
-					System.exit(0); // 常规java、c#的标准退出法，返回值为0代表正常退出
-					break;
+
 				}
 
 				return false;
@@ -823,7 +806,7 @@ public class TabFragmentMap extends Fragment implements OnClickListener,
 			break;
 		case R.id.bt_ctrlTrack:
 			if (!isRecording) {
-				bt_ctrlTrack.setBackgroundResource(R.drawable.stop);
+				bt_ctrlTrack.setBackgroundResource(R.drawable.mylocation);
 				if (showflag) {
 					Toast.makeText(getActivity(), "开始记录轨迹...", Toast.LENGTH_LONG)
 					.show();

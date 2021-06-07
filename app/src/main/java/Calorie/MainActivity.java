@@ -157,50 +157,6 @@ public class MainActivity extends FragmentActivity implements OnClickListener {
 
 	}
 
-	@Override
-	public boolean onCreateOptionsMenu(Menu menu) {
-		super.onCreateOptionsMenu(menu);
-		int group = 1;
-		menu.add(group, 1, 1, getString(R.string.main_about));
-		menu.add(group, 2, 2, getString(R.string.main_help));
-		menu.add(group, 3, 3, getString(R.string.main_background));
-		menu.add(group, 4, 4, getString(R.string.main_exit));
-		return true;
-	}
-
-	@Override
-	public boolean onOptionsItemSelected(MenuItem item) {
-		switch (item.getItemId()) {
-		case 1:
-			final TextView tvAbout = new TextView(this);
 
 
-			tvAbout.setSingleLine(false);
-			tvAbout.setTextSize(20);
-			new AlertDialog.Builder(this).setTitle(R.string.main_about)
-					.setIcon(android.R.drawable.ic_dialog_info)
-					.setView(tvAbout).setPositiveButton(R.string.main_positive, null).show();
-			break;
-		case 2:
-			final TextView tvHelp = new TextView(this);
-			String help = "    温馨提醒：计步页面可通过点击相关数据位置从而对该数据进行设置。";
-			tvHelp.setText(help);
-			tvHelp.setSingleLine(false);
-			tvHelp.setTextSize(20);
-			new AlertDialog.Builder(this).setTitle(R.string.main_help)
-					.setIcon(android.R.drawable.ic_dialog_info)
-					.setView(tvHelp).setPositiveButton(R.string.main_positive, null).show();
-			break;
-		case 3:
-			moveTaskToBack(false);
-			break;
-		case 4:
-			android.os.Process.killProcess(android.os.Process.myPid()); // 获取PID
-			System.exit(0); // 常规java、c#的标准退出法，返回值为0代表正常退出
-			break;
-		default:
-			break;
-		}
-		return true;
-	}
 }

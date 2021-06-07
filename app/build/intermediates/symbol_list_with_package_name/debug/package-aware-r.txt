@@ -484,6 +484,7 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable backimg
 drawable compass
 drawable endpoint
 drawable follow
@@ -553,16 +554,8 @@ id id_viewpager
 id ifRoom
 id image
 id info
-id it_about
-id it_back
-id it_clearMaket
-id it_compass
-id it_exit
-id it_follow
 id it_normal
-id it_normalmap
 id it_satellitemap
-id it_screenshot
 id it_setGps
 id line1
 id line3

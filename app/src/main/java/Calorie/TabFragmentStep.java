@@ -190,7 +190,7 @@ public class TabFragmentStep extends Fragment implements OnClickListener,
 		tvWeight.setText(weight + "");
 		tvSteplen.setText(steplen + "");
 		tvAge.setText(age + "");
-		tvSensitive.setText(sensitive + "");
+
 		AccelerometerSensorListener.SENSITIVITY = sensitive;
 		//tvLightive.setText(lightive + "");
 //		LIGHT_BORDER = lightive;
@@ -289,14 +289,14 @@ public class TabFragmentStep extends Fragment implements OnClickListener,
 		tvAge = (TextView) view.findViewById(R.id.tv_age);
 		tvAge.setOnClickListener(this);
 		tvSensitive = (TextView) view.findViewById(R.id.tv_sensitive);
-		tvSensitive.setOnClickListener(this);
+
 
 		//tvLightive.setOnClickListener(this);
 		tvSteplen = (TextView) view.findViewById(R.id.tv_steplen);
 		tvSteplen.setOnClickListener(this);
 
 		rgMode = (RadioGroup) view.findViewById(R.id.step_mode);
-		rgMode.setOnCheckedChangeListener(this);
+
 		rbStepNormal = (RadioButton) view.findViewById(R.id.step_normal);
 
 //		tvLight = (TextView) view.findViewById(R.id.tv_light);
