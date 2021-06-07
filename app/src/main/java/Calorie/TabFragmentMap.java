@@ -699,7 +699,7 @@ public class TabFragmentMap extends Fragment implements OnClickListener,
 		if (mBDLocation == null
 				|| (mBDLocation.getLatitude() == 0 && mBDLocation
 						.getLongitude() == 0)) {
-			Toast.makeText(getActivity(), "暂无法定位，请检查网络设置。", Toast.LENGTH_SHORT).show();
+			Toast.makeText(getActivity(), "請檢查網路狀態。", Toast.LENGTH_SHORT).show();
 			return;
 		}
 		setLocationData(mBDLocation);
@@ -796,11 +796,11 @@ public class TabFragmentMap extends Fragment implements OnClickListener,
 				}
 
 			} else {
-				Toast.makeText(getActivity(), "暂无法定位，请检查网络设置。",
+				Toast.makeText(getActivity(), "請檢查網路狀態。",
 						Toast.LENGTH_SHORT).show();
 			}
 			if (!network) {
-				Toast.makeText(getActivity(), "当前网络不可用，请检查网络状态",
+				Toast.makeText(getActivity(), "請檢查網路狀態",
 						Toast.LENGTH_SHORT).show();
 			}
 			break;
@@ -808,7 +808,7 @@ public class TabFragmentMap extends Fragment implements OnClickListener,
 			if (!isRecording) {
 				bt_ctrlTrack.setBackgroundResource(R.drawable.mylocation);
 				if (showflag) {
-					Toast.makeText(getActivity(), "开始记录轨迹...", Toast.LENGTH_LONG)
+					Toast.makeText(getActivity(), "開始記錄軌跡...", Toast.LENGTH_LONG)
 					.show();
 				}
 				isRecording = true;
