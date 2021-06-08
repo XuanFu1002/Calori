@@ -80,15 +80,6 @@
             android:layout_height="50dp"
             android:orientation="horizontal" >
 
-            <Button
-                android:id="@+id/bt_reset"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:background="@drawable/step_btn_background"
-                android:text="@string/tab_fragment_step_bt_reset"
-                android:textColor="@drawable/step_btn_color" />
-
             <Chronometer
                 android:id="@+id/cm_passtime"
                 android:layout_width="wrap_content"
@@ -101,12 +92,21 @@
 
             <Button
                 android:id="@+id/bt_control"
-                android:layout_width="wrap_content"
+                android:layout_width="7dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="@drawable/step_btn_background"
+                android:background="@drawable/p1"
                 android:text="@string/tab_fragment_step_bt_control"
-                android:textColor="@drawable/step_btn_color" />
+                android:textColor="@android:color/holo_orange_dark" />
+
+            <Button
+                android:id="@+id/bt_reset"
+                android:layout_width="17dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/r10"
+                android:text="@string/tab_fragment_step_bt_reset"
+                android:textColor="@android:color/holo_red_dark" />
         </LinearLayout>
 
         <TextView
@@ -116,37 +116,15 @@
             android:layout_marginTop="10dp"
             android:background="@android:color/holo_green_dark" />
 
-        <include layout="@layout/step_msg" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:layout_marginBottom="10dp"
-            android:layout_marginLeft="15dp"
-            android:layout_marginRight="15dp"
-            android:layout_marginTop="10dp"
-            android:background="#d0d0d0" />
-
         <include
             layout="@layout/step_settting"
             android:layout_width="match_parent"
-            android:layout_height="99dp" />
+            android:layout_height="88dp" />
 
-        <TextView
+        <include
+            layout="@layout/step_msg"
             android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:layout_marginBottom="10dp"
-            android:layout_marginLeft="15dp"
-            android:layout_marginRight="15dp"
-            android:layout_marginTop="10dp"
-            android:background="#d0d0d0" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:layout_marginBottom="10dp"
-            android:layout_marginTop="10dp"
-            android:background="@android:color/holo_green_dark" />
+            android:layout_height="98dp" />
 
         <include layout="@layout/mobile_msg" />
     </LinearLayout>

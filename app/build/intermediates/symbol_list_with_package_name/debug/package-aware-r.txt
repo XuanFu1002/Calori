@@ -493,6 +493,9 @@ drawable icon
 drawable mylocation
 drawable normal
 drawable notification_template_icon_bg
+drawable p1
+drawable r1
+drawable r10
 drawable start
 drawable startpoint
 drawable step_btn_background

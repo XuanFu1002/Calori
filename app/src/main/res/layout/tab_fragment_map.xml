@@ -11,32 +11,32 @@
 
     <Button
         android:id="@+id/bt_mapmenu"
-        android:layout_width="78dp"
-        android:layout_height="78dp"
+        android:layout_width="50dp"
+        android:layout_height="48dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:background="@drawable/submenu" />
 
     <Button
         android:id="@+id/bt_detLocation"
-        android:layout_width="88dp"
-        android:layout_height="89dp"
+        android:layout_width="63dp"
+        android:layout_height="63dp"
         android:layout_alignParentTop="true"
         android:layout_alignParentRight="true"
         android:layout_marginTop="0dp"
         android:layout_marginEnd="12dp"
-        android:layout_marginRight="12dp"
+        android:layout_marginRight="14dp"
         android:background="@drawable/normal" />
 
     <Button
         android:id="@+id/bt_ctrlTrack"
-        android:layout_width="82dp"
-        android:layout_height="82dp"
+        android:layout_width="70dp"
+        android:layout_height="65dp"
         android:layout_below="@id/bt_detLocation"
         android:layout_alignParentRight="true"
-        android:layout_marginTop="11dp"
+        android:layout_marginTop="500dp"
         android:layout_marginEnd="12dp"
-        android:layout_marginRight="12dp"
+        android:layout_marginRight="9dp"
         android:background="@drawable/start" />
 
 </RelativeLayout>

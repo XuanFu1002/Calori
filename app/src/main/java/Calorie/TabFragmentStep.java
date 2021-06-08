@@ -346,10 +346,10 @@ public class TabFragmentStep extends Fragment implements OnClickListener,
 			final EditText editText = new EditText(getActivity());
 			editText.setText(tvGoal.getText());
 			new AlertDialog.Builder(getActivity())
-					.setTitle("请输入")
+					.setTitle("請輸入您的目標")
 					.setIcon(android.R.drawable.ic_dialog_info)
 					.setView(editText)
-					.setPositiveButton("确定",
+					.setPositiveButton("確定",
 							new DialogInterface.OnClickListener() {
 								@Override
 								public void onClick(DialogInterface dialog,

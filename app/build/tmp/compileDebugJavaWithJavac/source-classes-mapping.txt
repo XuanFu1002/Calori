@@ -1,12 +1,19 @@
 Calorie/GlobalApplication.java
  Calorie.GlobalApplication
+Calorie/AccelerometerSensorListener.java
+ Calorie.AccelerometerSensorListener
+Calorie/AccelerometerSensorService.java
+ Calorie.AccelerometerSensorService
+ Calorie.AccelerometerSensorService$1
+com/calorie/BuildConfig.java
+ com.calorie.BuildConfig
+Calorie/MyOrientationListener.java
+ Calorie.MyOrientationListener
+ Calorie.MyOrientationListener$OnOrientationListener
 Calorie/MainActivity.java
  Calorie.MainActivity
  Calorie.MainActivity$1
  Calorie.MainActivity$2
-Calorie/MyOrientationListener.java
- Calorie.MyOrientationListener
- Calorie.MyOrientationListener$OnOrientationListener
 Calorie/TabFragmentStep.java
  Calorie.TabFragmentStep
  Calorie.TabFragmentStep$1
@@ -17,13 +24,6 @@ Calorie/TabFragmentStep.java
  Calorie.TabFragmentStep$6
  Calorie.TabFragmentStep$7
  Calorie.TabFragmentStep$8
-Calorie/AccelerometerSensorListener.java
- Calorie.AccelerometerSensorListener
-com/calorie/BuildConfig.java
- com.calorie.BuildConfig
-Calorie/AccelerometerSensorService.java
- Calorie.AccelerometerSensorService
- Calorie.AccelerometerSensorService$1
 Calorie/TabFragmentMap.java
  Calorie.TabFragmentMap
  Calorie.TabFragmentMap$1

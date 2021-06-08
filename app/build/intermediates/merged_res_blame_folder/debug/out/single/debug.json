@@ -4,6 +4,10 @@
         "source": "D:\\ASP\\Calori\\app\\src\\main\\res\\drawable\\follow.png"
     },
     {
+        "merged": "D:\\ASP\\Calori\\app\\build\\intermediates\\res\\merged\\debug\\drawable_p1.png.flat",
+        "source": "D:\\ASP\\Calori\\app\\src\\main\\res\\drawable\\p1.png"
+    },
+    {
         "merged": "D:\\ASP\\Calori\\app\\build\\intermediates\\res\\merged\\debug\\layout_step_mode.xml.flat",
         "source": "D:\\ASP\\Calori\\app\\src\\main\\res\\layout\\step_mode.xml"
     },
@@ -44,6 +48,10 @@
         "source": "D:\\ASP\\Calori\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
+        "merged": "D:\\ASP\\Calori\\app\\build\\intermediates\\res\\merged\\debug\\drawable_r10.png.flat",
+        "source": "D:\\ASP\\Calori\\app\\src\\main\\res\\drawable\\r10.png"
+    },
+    {
         "merged": "D:\\ASP\\Calori\\app\\build\\intermediates\\res\\merged\\debug\\layout_step_settting.xml.flat",
         "source": "D:\\ASP\\Calori\\app\\src\\main\\res\\layout\\step_settting.xml"
     },
@@ -74,6 +82,10 @@
     {
         "merged": "D:\\ASP\\Calori\\app\\build\\intermediates\\res\\merged\\debug\\layout_tab_fragment_map.xml.flat",
         "source": "D:\\ASP\\Calori\\app\\src\\main\\res\\layout\\tab_fragment_map.xml"
+    },
+    {
+        "merged": "D:\\ASP\\Calori\\app\\build\\intermediates\\res\\merged\\debug\\drawable_r1.png.flat",
+        "source": "D:\\ASP\\Calori\\app\\src\\main\\res\\drawable\\r1.png"
     },
     {
         "merged": "D:\\ASP\\Calori\\app\\build\\intermediates\\res\\merged\\debug\\drawable_stop.png.flat",
